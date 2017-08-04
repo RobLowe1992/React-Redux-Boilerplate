@@ -1,33 +1,26 @@
-/*
- * The users reducer will always return an array of users no matter what
- * You need to return something, so if there are no users then just return an empty array
- * */
-
-export default function () {
+export default function() {
     return [
         {
             id: 1,
-            first: "Bucky",
-            last: "Roberts",
-            age: 71,
-            description: "Bucky is a React developer and YouTuber",
-            thumbnail: "http://i.imgur.com/7yUvePI.jpg"
-        },
-        {
+            first: 'Robert',
+            last: 'Lowe',
+            age: 25,
+            description: 'Rob is a React developer',
+            thumbnail: 'https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAA2SAAAAJDYzYWNlMjRlLTYwMDUtNDE2Mi1hYWVkLTZkZWQwNDQwYWJlMQ.jpg'
+        },{
             id: 2,
-            first: "Joby",
-            last: "Wasilenko",
-            age: 27,
-            description: "Joby loves the Packers, cheese, and turtles.",
-            thumbnail: "http://i.imgur.com/52xRlm8.png"
-        },
-        {
+            first: 'Tim',
+            last: 'Chase',
+            age: 26,
+            description: 'Tim is an AngularJS developer',
+            thumbnail: 'https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAupAAAAJGFmOGI4NjAwLTc0YmUtNDMzNy1hZTJiLWY5ZWQxNDVkYWM0OA.jpg'
+        },{
             id: 3,
-            first: "Madison",
-            last: "Williams",
-            age: 24,
-            description: "Madi likes her dog but it is really annoying.",
-            thumbnail: "http://i.imgur.com/4EMtxHB.png"
-        }
+            first: 'Bao',
+            last: 'Pham',
+            age: 23,
+            description: 'Bao is a Rails developer',
+            thumbnail: 'https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAA2JAAAAJDQ5N2E5MDExLTljN2UtNGRmNS1iODU3LTJmYWRmOTMwYzZlOQ.jpg'
+        },
     ]
 }
