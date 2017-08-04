@@ -21,6 +21,13 @@ export default function() {
             age: 23,
             description: 'Bao is a Rails developer',
             thumbnail: 'https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAA2JAAAAJDQ5N2E5MDExLTljN2UtNGRmNS1iODU3LTJmYWRmOTMwYzZlOQ.jpg'
-        },
+        },{
+            id: 4,
+            first: 'Mark',
+            last: 'Moeller',
+            age: 26,
+            description: 'Mark is a MEAN developer',
+            thumbnail: 'https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAv3AAAAJDYxNjYyNGQzLTk5YzAtNDQ5ZS04NzUwLTY3MWExNTlhY2I3Nw.jpg'
+        }
     ]
 }
